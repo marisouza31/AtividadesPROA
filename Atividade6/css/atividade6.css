@@ -21,9 +21,9 @@ main{
    width: 100%;
    height: 100px;
    background-color:rgb(147, 255, 5);
-   display: flex;/*ativa recurso de alinhamento no componente*/
-   align-items: center;/*alinhamento vertical*/
-   justify-content: center;/*alinhamento horizontal*/
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 #cabecalho h1{
@@ -127,3 +127,4 @@ footer{
    color: #ffffff;
    text-align: left;
 }
+
