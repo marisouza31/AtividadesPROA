@@ -93,7 +93,7 @@ main{
     text-align: left;
 }
 
-#titulo_article {
+#titulo_h1 {
     background-color: rgb(50, 213, 235); 
     padding: 0;
     width: 100%; 
@@ -127,4 +127,5 @@ footer{
    color: #ffffff;
    text-align: left;
 }
+
 
