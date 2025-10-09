@@ -19,16 +19,16 @@ main{
    width: 100%;
    height: 100px;
    background-color: #0000;
-   display: flex;/*ativa recurso de alinhamento no componente*/
-   flex-direction: row;/*alinhamento em linha ou coluna*/
-   align-items: center;/*alinhamento vertical*/
-   justify-content: center;/*alinhamento horizontal*/
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
 }
 
 #cabecalho h1{
    font-size: 2em;
    color: white;
-   font-weight: normal; /*fonte com peso normal*/
+   font-weight: normal; 
 }
 
 nav{
@@ -36,10 +36,10 @@ nav{
    width: 100%;
    height: 30px;
    background-color: rgb(31, 31, 138);
-   display: flex;/*ativa recurso de alinhamento no componente*/
-   flex-direction: row;/*alinhamento em linha ou coluna*/
-   align-items: center;/*alinhamento vertical*/
-   justify-content: space-around;/*alinhamento horizontal*/
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
    font-size: 16px;
 }
 
@@ -47,7 +47,7 @@ nav a{
     position: relative;
      width: 100px;
      color: white;
-     text-decoration: none;/*retira o sublinhado*/
+     text-decoration: none;
      
 }
 
@@ -89,7 +89,7 @@ nav a:hover{
 #meio {
     position: absolute;
     top: 130px;
-    left: 20%; /* começa depois da nav-lateral */
+    left: 20%;
     width: 60%;
     height: calc(100% - 130px);
     background-color: white;
@@ -127,7 +127,7 @@ aside img {
     font-weight: normal;
 }
 
-/* Ajuste para a div marrom */
+/* divs marrons*/
 .div-marrom {
     width: 95%;
     height: 150px;
@@ -153,7 +153,8 @@ p{
     height: 95px;
 }
 
-/* Container das divs cinza */
+
+/* divs cinzas */
 .container-divs {
     width: 93%;          
     margin: 10px auto 20px; 
@@ -169,12 +170,11 @@ p{
     text-align: center;
 }
 
-/* Remove a margem direita da última div para não quebrar linha */
+/* tira a margem da direita da ultima div p nao quebrar a linha */
 .div-cinza:last-child {
     margin-right: 0;
 }
 
-/* Imagem dentro da div cinza */
 .div-cinza img {
     width: 100%;
     height: 100%;
@@ -204,4 +204,5 @@ footer h3 {
   font-size: 25px;
   text-align: center;
   z-index: 2;   
+
 }
