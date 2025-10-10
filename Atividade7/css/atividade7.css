@@ -21,8 +21,6 @@ main {
    height: 100px;
    background-color: rgb(144, 204, 66);
    display: flex;
-   padding: 20px; 
-   box-sizing: border-box; 
 }
 
 
@@ -133,3 +131,4 @@ main {
    text-align: left;
 
 }
+
