@@ -20,9 +20,9 @@ main {
    width: 100%;
    height: 100px;
    background-color: rgb(144, 204, 66);
-   display: flex;/* ativa recurso de alinhamento no componente */
+   display: flex;
    padding: 20px; 
-   box-sizing: border-box; /* garante que a largura não aumente por causa do padding */
+   box-sizing: border-box; 
 }
 
 
@@ -131,4 +131,5 @@ main {
    display: flex;
    color: #ffffff;
    text-align: left;
+
 }
