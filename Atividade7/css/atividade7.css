@@ -20,7 +20,12 @@ main {
    width: 100%;
    height: 100px;
    background-color: rgb(144, 204, 66);
-   display: flex;
+   display: flex
+}
+
+#cabecalho img{
+    width: 100%;
+    height: 100px;
 }
 
 
@@ -129,6 +134,39 @@ main {
    display: flex;
    color: #ffffff;
    text-align: left;
-
 }
 
+
+/*responsividade em mobile*/
+
+
+@media (max-width: 768px) {
+#caixa_esquerda, #caixa_direita {
+    width: 90%;
+    margin-left: 5%;
+    float: none;
+}
+
+.container-divs {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.div-branca {
+    width: 45%;
+    height: 120px;
+}
+#caixa_azul, #caixa_verde {
+    width: 90%;
+    margin-left: 5%;
+    float: none;
+}
+
+#meio_partedebaixo, 
+#meio_vermelho,
+#fundo_azul,
+#fundo_amarelo {
+    height: auto;
+}
+}
