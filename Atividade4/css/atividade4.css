@@ -1,4 +1,3 @@
-/* TOPO */
 #camada1 {
   position: relative;
   height: 90px;
@@ -11,7 +10,7 @@
   padding-top: 20px;
 }
 
-/* LE */
+
 #camada2 {
   position: absolute;
   top: 100px;
@@ -24,7 +23,7 @@
   z-index: 1; 
 }
 
-/* CONTEUDO */
+
 #camada3 {
   position: absolute;
   top: 100px;   
@@ -38,7 +37,7 @@
   z-index: 3;  
 }
 
-/* RODAPE */
+
 #camada4 {
   position: absolute;
   top: 510px;  
