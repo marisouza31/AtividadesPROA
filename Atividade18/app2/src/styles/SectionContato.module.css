@@ -1,0 +1,85 @@
+.fundoAmarelo {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.caixaAzul {
+  width: 43%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.caixaVerde {
+  width: 43%;
+  margin-top: 60px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.caixaVerde h1 {
+  font-size: 17px;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+}
+
+.imagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.imagens img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+
+.contato {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-sizing: border-box;
+}
+
+.contato label {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contato input,
+.contato textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: block;
+}
+
+.contato textarea {
+  height: 80px;
+  resize: none;
+}
+
+.contato button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
+}

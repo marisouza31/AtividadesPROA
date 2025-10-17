@@ -1,0 +1,12 @@
+.cabecalho {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(144, 204, 66);
+  display: flex;
+}
+
+.cabecalho img {
+  width: 100%;
+  height: 100px;
+}

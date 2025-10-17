@@ -1,0 +1,14 @@
+.fundoAzul {
+  width: 100%;
+  background-color: rgb(186, 208, 241);
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.containerDivs {
+  width: 95%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap; 
+}
+

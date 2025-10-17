@@ -1,0 +1,22 @@
+.secaoLoja {
+  display: flex;
+  width: 90%; 
+  height: 300px;       
+  margin: 20px auto;            
+}
+
+.caixaEsquerda {
+  flex: 1;             
+  background-color: rgb(216, 56, 109);
+  color: #fff;
+  padding: 20px;
+}
+
+.caixaEsquerda h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.caixaEsquerda p {
+  font-size: 12px;
+}

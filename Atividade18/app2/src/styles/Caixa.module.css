@@ -1,0 +1,32 @@
+.divBranca {
+  background-color: white;
+  width: 200px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.divBranca img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.divBranca p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.divBranca p.preco {
+  color: red;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 5px;
+}
