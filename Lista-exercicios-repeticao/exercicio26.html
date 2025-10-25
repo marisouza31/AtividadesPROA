@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 26</title>
+</head>
+<body>
+    <script>
+        let limite = parseInt(prompt("escreva um numero inteiro:"))
+        let num = 1
+        let soma = 0
+
+        do {
+        if (num % 2 === 0) soma += num
+        num++;
+        } while (num <= limite)
+
+        document.write("a soma dos numeros pares entre 1 e " + limite + ": " + soma)
+    </script>
+</body>
+</html>

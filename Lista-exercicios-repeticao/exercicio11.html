@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 11</title>
+</head>
+<body>
+    <script>
+        let limite = parseInt(prompt("escreva um numero:"))
+        let num = 1, soma = 0
+
+            while (num <= limite) {
+            if (num % 2 === 0) {
+                soma += num
+            }
+            num++
+        }
+
+        document.write("soma dos pares entre 1 e " + limite + ": " + soma)
+    </script>
+</body>
+</html>

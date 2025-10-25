@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 8</title>
+</head>
+<body>
+    <script>
+        let limite = parseInt(prompt("criar fibonacci ate o numero:"))
+        let a = 0, b = 1
+
+        document.write(a + "<br>")
+            while (b <= limite) {
+            document.write(b + "<br>")
+            let temp = a + b
+            a = b
+            b = temp
+        }
+    </script>
+</body>
+</html>

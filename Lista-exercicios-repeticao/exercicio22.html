@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 22</title>
+</head>
+<body>
+    <script>
+        let num = parseInt(prompt("coloque um numero inteiro:"))
+        let divisor = 2
+        let primo = true
+
+        do {
+        if (num % divisor === 0) {
+            primo = false
+            break
+        }
+        divisor++;
+        } while (divisor < num)
+
+        if (num > 1 && primo) {
+        document.write(num + " é primo")
+        } else {
+        document.write(num + " não é primo")
+        }
+    </script>
+</body>
+</html>

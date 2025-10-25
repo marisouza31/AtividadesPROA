@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 30</title>
+</head>
+<body>
+    <script>
+        let nome
+        let somaIdades = 0
+        let contador = 0
+
+        do {
+        nome = prompt("coloque o nome (ou 'fim' para encerrar):")
+        if (nome.toLowerCase() === "fim") break
+        let idade = parseInt(prompt("escreva a idade de " + nome + ":"))
+        somaIdades += idade
+        contador++
+        } while (true)
+
+        if (contador > 0) {
+        let media = somaIdades / contador
+        document.write("media das idades: " + media)
+        } else {
+        document.write("nenhuma pessoa informada!")
+        }
+    </script>
+</body>
+</html>
